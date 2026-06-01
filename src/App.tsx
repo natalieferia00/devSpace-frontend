@@ -3,7 +3,7 @@ import { DragDropContext, Droppable } from '@hello-pangea/dnd';
 import type { DropResult } from '@hello-pangea/dnd';
 import type { Tarea, Columna, EstadoTarea, PrioridadTarea } from './types';
 import { TaskCard } from './components/TaskCard';
-import { KanbanSquare, Plus, Search, Filter } from 'lucide-react';
+import { KanbanSquare, Plus, Search } from 'lucide-react';
 import axios from 'axios';
 
 const API_URL = import.meta.env.VITE_API_URL || 'https://devspace-backend-fau5.onrender.com/api/tasks';
